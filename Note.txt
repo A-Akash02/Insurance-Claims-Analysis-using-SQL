@@ -1,0 +1,17 @@
+First, create a database named ClaimInsurance and then define and create the following tables within it: Customers, Policies, Claims, and PolicyTypes.
+---------------------------------------
+
+After creating the tables, include the following fields: CustomerID, PolicyID, ClaimID, PolicyTypeID, ClaimAmount, ClaimDate, PolicyStartDate, PolicyEndDate, and others as necessary.
+---------------------------------------
+
+Add sample data that matches your project and fits the table you created earlier.
+---------------------------------------
+
+Write a query to calculate the total number of claims for each policy type. Use analytical functions to determine the monthly frequency of claims and the average amount of each claim.
+---------------------------------------
+
+Discuss the creation of indexes on columns that are frequently used in WHERE clauses or as join keys to enhance query performance.
+---------------------------------------
+
+Create roles for ClaimsAnalyst with read-only access to claims and policy data, and ClaimsManager with full access to claims data and the ability to update policy information.
+---------------------------------------
